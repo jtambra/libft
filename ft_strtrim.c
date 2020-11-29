@@ -6,7 +6,7 @@
 /*   By: jtambra <talya_1998@mail.ru>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/06 21:30:57 by jtambra           #+#    #+#             */
-/*   Updated: 2020/11/12 21:23:10 by jtambra          ###   ########.fr       */
+/*   Updated: 2020/11/28 22:88:05 by jtambra          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	char	*s2;
 	size_t	len;
 	size_t	i;
-	size_t	n;
 
-	n = 0;
 	if (!s1 || !set)
 		return (NULL);
 	while (*s1 && (ft_strchr(set, *s1)))
